@@ -9,6 +9,11 @@ A simple Android app written in Java that detects a shake (via the accelerometer
 - A button to stop the GIF playback
 - Clean and minimal architecture for easy extensibility
 
+## Threshold Explanation
+
+Note: The shake detection uses an acceleration threshold value of 800.0f. This value was chosen based on empirical testing on multiple devices to balance sensitivity and avoid false positives. Increasing this value reduces false triggers but requires stronger shakes; decreasing it makes the app more sensitive to lighter shakes.
+
+
 ## 🛠 Technologies Used
 
 - Java (Android SDK)
