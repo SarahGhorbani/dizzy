@@ -9,10 +9,6 @@ A simple Android app written in Java that detects a shake (via the accelerometer
 - A button to stop the GIF playback
 - Clean and minimal architecture for easy extensibility
 
-## 🎥 Demo
-
-*Add a screen recording or GIF demo here if available.*
-
 ## 🛠 Technologies Used
 
 - Java (Android SDK)
